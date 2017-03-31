@@ -3,7 +3,7 @@ A light weight JAvascript library for showing customized toast messages in websi
 
 Add toast.js to html and use the showError() method to display message .
 
-showError(param1,param2,param3);
+#showError(param1,param2,param3);
 param1 - message
 param2 - type of message ('success','error','loading')
 param3 - if true, hide the message after 2 seconds . 
