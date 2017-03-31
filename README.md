@@ -1,22 +1,24 @@
 # toastJS
-A light weight JAvascript library for showing customized toast messages in websites
 
-Add toast.js to html and use the showError() method to display message .
+A light weight Javascript library for showing customized toast messages in websites
 
-##showError(param1,param2,param3);
-param1 - message
-param2 - type of message ('success','error','loading')
-param3 - if true, hide the message after 2 seconds . 
-         false, the message will not hide from screen unless hideError() method is called.
+Add toast.js to html and use the ```showError()``` method to display message
 
-##hideError() 
-Hides the toast message fom the screen.
+#### ```showError(param1,param2,param3)```
 
-###Error Toasts
-showError('message','error',true);
+* ##### ```param1``` -  message 
+* ##### ```param2``` - type of message ('success','error','loading')
+* ##### ```param3``` - if true, hide the message after 2 seconds .false, the message will not hide from screen unless ```hideError()``` method is called.
 
-###Loading Toasts
-showError('message','loading',true);
+#### ```hideError()``` 
+* Hides the toast message fom the screen.
 
-###Success Toasts
-showError('message','success',true);
+
+##### Error Toasts
+```showError('message','error',true);```
+
+##### Loading Toasts 
+```showError('message','loading',true);```
+
+##### Success Toasts 
+```showError('message','success',true);```
